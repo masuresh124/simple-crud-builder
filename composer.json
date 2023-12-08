@@ -1,0 +1,19 @@
+{
+    "name": "suresh/simple-crud",
+    "description": "This package used to create simple CRUD",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Suresh\\SimpleCrudBuilder\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Suresh Ayyasamy"
+        }
+    ],
+    "minimum-stability" : "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+    }
+}
