@@ -6,9 +6,9 @@ class FormComponentEntity extends ComponentEntity
     public $name;
     public $value;
     public $label;
+    public $choices;
     public $placeholder;
     public $required;
-    public $selected;
     public $options;
     public $showAll;
     public $attribute;
