@@ -1,5 +1,5 @@
 {
-    "name": "suresh/simple-crud",
+    "name": "suresh/simple-crud-builder",
     "description": "This package used to create simple CRUD",
     "type": "library",
     "autoload": {
