@@ -1,6 +1,6 @@
 <?php
 
-namespace Suresh\SimpleCrudBuilder\Helpers;
+namespace Masuresh124\SimpleCrudBuilder\Helpers;
 
 use Illuminate\Database\Eloquent\Model;
 

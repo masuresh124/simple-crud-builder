@@ -1,7 +1,7 @@
 <?php
-namespace Suresh\SimpleCrudBuilder\FormBuilder;
+namespace Masuresh124\SimpleCrudBuilder\FormBuilder;
 
-use Suresh\SimpleCrudBuilder\FormBuilder\Entity\FormEntity;
+use Masuresh124\SimpleCrudBuilder\FormBuilder\Entity\FormEntity;
 
 abstract class FormComponentAbstract
 {

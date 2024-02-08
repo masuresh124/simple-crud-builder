@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Suresh\\SimpleCrudBuilder\\' => array($baseDir . '/src'),
+    'Masuresh124\\SimpleCrudBuilder\\' => array($baseDir . '/src'),
 );

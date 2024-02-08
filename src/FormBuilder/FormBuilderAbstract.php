@@ -1,5 +1,5 @@
 <?php
-namespace Suresh\SimpleCrudBuilder\FormBuilder;
+namespace Masuresh124\SimpleCrudBuilder\FormBuilder;
 
 abstract class FormBuilderAbstract
 {

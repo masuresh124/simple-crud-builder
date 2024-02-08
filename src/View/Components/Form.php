@@ -1,9 +1,9 @@
 <?php
 
-namespace Suresh\SimpleCrudBuilder\View\Components;
+namespace Masuresh124\SimpleCrudBuilder\View\Components;
 
 use Illuminate\View\Component;
-use Suresh\SimpleCrudBuilder\View\Components\Entity\FormComponentEntity;
+use Masuresh124\SimpleCrudBuilder\View\Components\Entity\FormComponentEntity;
 
 class Form extends Component
 {

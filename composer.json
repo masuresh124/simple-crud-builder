@@ -1,10 +1,10 @@
 {
-    "name": "suresh/simple-crud-builder",
+    "name": "masuresh124/simple-crud-builder",
     "description": "This package used to create simple CRUD",
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Suresh\\SimpleCrudBuilder\\": "src/"
+            "Masuresh124\\SimpleCrudBuilder\\": "src/"
         }
     },
     "authors": [

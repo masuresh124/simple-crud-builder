@@ -1,5 +1,5 @@
 <?php
-namespace Suresh\SimpleCrudBuilder\View\Components\Entity;
+namespace Masuresh124\SimpleCrudBuilder\View\Components\Entity;
 
 class ComponentEntity
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Suresh\SimpleCrudBuilder\FormBuilder;
+namespace Masuresh124\SimpleCrudBuilder\FormBuilder;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
@@ -8,8 +8,8 @@ use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
-use Suresh\SimpleCrudBuilder\FormBuilder\Entity\FormEntity;
-use Suresh\SimpleCrudBuilder\Helpers\FormHelper;
+use Masuresh124\SimpleCrudBuilder\FormBuilder\Entity\FormEntity;
+use Masuresh124\SimpleCrudBuilder\Helpers\FormHelper;
 
 abstract class Form
 {

@@ -14,7 +14,7 @@ namespace App\Http\Controllers;
 use App\Forms\ProductForm;
 use App\Models\Product;
 use Illuminate\Http\Request;
-use Suresh\SimpleCrudBuilder\FormBuilder\FormBuilder;
+use Masuresh124\SimpleCrudBuilder\FormBuilder\FormBuilder;
 
 class ProductController extends Controller
 {
@@ -37,7 +37,7 @@ class ProductController extends Controller
 ```
 In Product form
 ```javascript
-use Suresh\SimpleCrudBuilder\FormBuilder\Form;
+use Masuresh124\SimpleCrudBuilder\FormBuilder\Form;
 
 class ProductForm extends Form
 {
@@ -80,7 +80,7 @@ Create a form in app\Forms\ProductForm.php
 
 ```javascript
 namespace App\Forms;
-use Suresh\SimpleCrudBuilder\FormBuilder\Form;
+use Masuresh124\SimpleCrudBuilder\FormBuilder\Form;
 
 class ProductForm extends Form
 {
@@ -112,7 +112,7 @@ namespace App\Http\Controllers;
 use App\Forms\ProductForm;
 use App\Models\Product;
 use Illuminate\Http\Request;
-use Suresh\SimpleCrudBuilder\FormBuilder\FormBuilder;
+use Masuresh124\SimpleCrudBuilder\FormBuilder\FormBuilder;
 
 class ProductController extends Controller
 {

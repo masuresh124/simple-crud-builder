@@ -1,5 +1,5 @@
 <?php
-namespace Suresh\SimpleCrudBuilder\FormBuilder\Entity;
+namespace Masuresh124\SimpleCrudBuilder\FormBuilder\Entity;
 
 class FormEntity
 {

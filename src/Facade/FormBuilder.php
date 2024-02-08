@@ -1,5 +1,5 @@
 <?php
-namespace Suresh\SimpleCrudBuilder\Facade;
+namespace Masuresh124\SimpleCrudBuilder\Facade;
 
 use Illuminate\Support\Facades\Facade;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Suresh\SimpleCrudBuilder\View\Components;
+namespace Masuresh124\SimpleCrudBuilder\View\Components;
 
 use Illuminate\View\Component;
 

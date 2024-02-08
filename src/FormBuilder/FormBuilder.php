@@ -1,9 +1,9 @@
 <?php
-namespace Suresh\SimpleCrudBuilder\FormBuilder;
+namespace Masuresh124\SimpleCrudBuilder\FormBuilder;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Session;
-use Suresh\SimpleCrudBuilder\Helpers\FormHelper;
+use Masuresh124\SimpleCrudBuilder\Helpers\FormHelper;
 
 class FormBuilder extends FormBuilderAbstract
 {
