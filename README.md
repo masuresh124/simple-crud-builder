@@ -64,6 +64,18 @@ In product.blade.php
 
 ```
 
+## Installation
+
+Install simple crud builder with composer
+
+```bash
+  composer require suresh/simple-crud-builder
+```
+## Requirements
+
+- [PHP >= 7.0](http://www.php.net)
+- [Laravel >= 7.0](https://laravel.com)
+
 ## Badges
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
