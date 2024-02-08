@@ -2,6 +2,8 @@
     "name": "masuresh124/simple-crud-builder",
     "description": "This package used to create simple CRUD",
     "type": "library",
+    "homepage": "https://github.com/masuresh124/simple-crud-builder",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Masuresh124\\SimpleCrudBuilder\\": "src/"
@@ -12,8 +14,11 @@
             "name": "Suresh Ayyasamy"
         }
     ],
-    "minimum-stability" : "dev",
+   "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
+          "php": ">=7.1.0",
+          "laravel/framework": "~5.2.0||~5.3.0||~5.4.0||~5.5.0||~5.6.0||~5.7.0||~5.8.0||^6.0||^7.0||^8.0||^9.0|^10.0",
         "guzzlehttp/guzzle": "^7.0.1"
     }
 }
