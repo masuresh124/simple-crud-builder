@@ -27,15 +27,11 @@ class ProductController extends Controller
     public function create()
     {
         $entity = new Product();
-        return $this->process($entity);
+       return FormBuilder::createFormSimpleBuilder($entity, ProductForm::class, 'product');
     }
 ....
      
 
-    public function process(Product $entity)
-    {
-        return FormBuilder::createFormSimpleBuilder($entity, ProductForm::class, 'product');
-    }
 }
 
 ```
