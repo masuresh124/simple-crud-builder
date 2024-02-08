@@ -64,10 +64,7 @@ In product.blade.php
 
 ```
 
-## Requirements
-
-- [PHP >= 7.0](http://www.php.net)
-- [Laravel >= 7.0](https://laravel.com)
+ 
 
 ## Installation
 
