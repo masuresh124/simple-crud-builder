@@ -71,8 +71,18 @@ In product.blade.php
 Install simple crud builder with composer
 
 ```bash
-  composer require suresh/simple-crud-builder
+  composer require masuresh124/simple-crud-builder
 ```
+
+Add the following code in config\app.php
+
+```bash
+        /**
+         * Package Service Providers...
+         */
+        Masuresh124\SimpleCrudBuilder\Providers\SimpleCrudProvider::class,
+```
+
 
 ## Step 1 - Create Form
 
@@ -98,8 +108,18 @@ class ProductForm extends Form
     }
 }
 
-```
 
+```
+- In the above code, The 'name', 'description', 'is_active' should same name as data base table column names
+
+ 
+- Product Table
+
+
+| name  | description  |is_active  |is_new_arrival|
+| ----- | -------- |-------- |-------- |
+
+ 
 ## Step 2 - Create Controller
 
 Create a controller in app\Http\Controllers\ProductController.php
@@ -232,6 +252,12 @@ Create a route in routes\web.php
 
 ```javascript
 Route::resource('products', ProductController::class);
+```
+
+Run the following command to access the uploaded file from the local
+
+```bash
+        php artisan storage:link
 ```
 
 ## Badges
